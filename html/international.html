@@ -1,0 +1,185 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>International Education | Smart International Schools</title>
+
+  <link rel="stylesheet" href="../css/bootstrap.min.css">
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/national.css">
+  
+</head>
+
+<body>
+
+  <main class="national-page">
+
+    <!-- PAGE HEADER -->
+    <section class="national-header">
+
+      <p class="eyebrow">INTERNATIONAL EDUCATION</p>
+
+      <h1>Our <em>International Stages</em></h1>
+
+      <p>
+        Discover an inspiring learning journey that prepares students
+        for a world of opportunities.
+      </p>
+
+    </section>
+
+
+    <!-- EARLY YEARS -->
+    <section class="stage-section fs-section">
+
+      <div class="stage-heading">
+        <span>01</span>
+
+        <div>
+          <p class="card-kicker">FOUNDATION STAGE</p>
+          <h2>Early Years (FS)</h2>
+        </div>
+      </div>
+
+      <div class="stage-gallery">
+
+        <img src="../images/international/fs/photo (1).jpeg" alt="Early Years">
+        <img src="../images/international/fs/photo (2).jpeg" alt="Early Years">
+        <img src="../images/international/fs/photo (3).jpeg" alt="Early Years">
+        <img src="../images/international/fs/photo (4).jpeg" alt="Early Years">
+        <img src="../images/international/fs/photo (5).jpeg" alt="Early Years">
+        <img src="../images/international/fs/photo (6).jpeg" alt="Early Years">
+        <img src="../images/international/fs/photo (7).jpeg" alt="Early Years">
+        <img src="../images/international/fs/photo (8).jpeg" alt="Early Years">
+        <img src="../images/international/fs/photo (9).jpeg" alt="Early Years">
+        <img src="../images/international/fs/photo (10).jpeg" alt="Early Years">
+        <img src="../images/international/fs/photo (1).jpg" alt="Early Years">
+        <img src="../images/international/fs/photo (2).jpg" alt="Early Years">
+        <img src="../images/international/fs/photo (3).jpg" alt="Early Years">
+        <img src="../images/international/fs/photo (4).jpg" alt="Early Years">
+        <img src="../images/international/fs/photo (5).jpg" alt="Early Years">
+        <img src="../images/international/fs/photo (6).jpg" alt="Early Years">
+        
+      </div>
+
+      <button class="view-all-btn" onclick="toggleGallery(this)">
+         View All Photos
+      </button>
+    </section>
+
+
+    <!-- KEY STAGE 1 -->
+    <section class="stage-section">
+
+      <div class="stage-heading">
+        <span>02</span>
+
+        <div>
+          <p class="card-kicker">PRIMARY EDUCATION</p>
+          <h2>Key Stage 1 (Years 1–2)</h2>
+        </div>
+      </div>
+
+      <div class="stage-gallery">
+
+        <img src="../images/international/ks(1-2)/photo (1).jpg" alt="Key Stage 1">
+        <img src="../images/international/ks(1-2)/photo (2).jpg" alt="Key Stage 1">
+        <img src="../images/international/ks(1-2)/photo (5).jpg" alt="Key Stage 1">
+      
+      </div>
+
+      <button class="view-all-btn" onclick="toggleGallery(this)">
+         View All Photos
+      </button>
+    </section>
+
+
+    <!-- KEY STAGE 2 -->
+    <section class="stage-section">
+
+      <div class="stage-heading">
+        <span>03</span>
+
+        <div>
+          <p class="card-kicker">PRIMARY EDUCATION</p>
+          <h2>Key Stage 2 (Years 3–4–5–6)</h2>
+        </div>
+      </div>
+
+      <div class="stage-gallery">
+
+        <img src="../images/international/ks(3-4-5-6)/photo (3).jpg" alt="Key Stage 2">
+        <img src="../images/international/ks(3-4-5-6)/photo (4).jpg" alt="Key Stage 2">
+        <img src="../images/international/ks(3-4-5-6)/photo (6).jpg" alt="Key Stage 2">
+        <img src="../images/international/ks(3-4-5-6)/photo (7).jpg" alt="Key Stage 2">
+      
+
+      </div>
+
+      <button class="view-all-btn" onclick="toggleGallery(this)">
+         View All Photos
+      </button>
+    </section>
+
+
+    <!-- KEY STAGE 3 -->
+    <section class="stage-section">
+
+      <div class="stage-heading">
+        <span>04</span>
+
+        <div>
+          <p class="card-kicker">SECONDARY EDUCATION</p>
+          <h2>Key Stage 3 (Years 7–8–9)</h2>
+        </div>
+      </div>
+
+      <div class="stage-gallery">
+
+      </div>
+
+    </section>
+
+  </main>
+
+
+   <!-- ======================================
+                 IMAGE GALLERY MODAL
+        =======================================-->
+<div class="modal fade" id="galleryModal" tabindex="-1" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-lg">
+    <div class="modal-content">
+
+      <div class="modal-header border-0">
+        <button type="button"
+                class="btn-close btn-close-white"
+                data-bs-dismiss="modal"
+                aria-label="Close"></button>
+      </div>
+
+      <div class="modal-body position-relative">
+
+        <button class="gallery-arrow prev-btn" id="prevImage">
+          &#10094;
+        </button>
+
+        <img src="" id="modalImage" alt="Gallery image">
+
+        <button class="gallery-arrow next-btn" id="nextImage">
+          &#10095;
+        </button>
+
+        <p id="imageCounter" class="text-white text-center mt-3"></p>
+
+      </div>
+    </div>
+  </div>
+</div>
+<script src="../js/bootstrap.bundle.min.js"></script>
+  <script src="../js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,52 @@
+.admission-hero {
+    background: #4b1022;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.admission-hero h1 {
+    font-size: 45px;
+    margin-bottom: 15px;
+}
+
+.admission-section {
+    max-width: 1100px;
+    margin: 60px auto;
+    padding: 0 20px;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 25px;
+}
+
+.admission-card {
+    background: #fffaf2;
+    border-left: 5px solid #e6a443;
+    border-radius: 12px;
+    padding: 30px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.06);
+}
+
+.admission-card h2 {
+    color: #4b1022;
+    margin-bottom: 15px;
+}
+
+.admission-card p {
+    color: #666;
+    line-height: 1.8;
+}
+
+@media (max-width: 768px) {
+    .admission-hero {
+        padding: 70px 20px;
+    }
+
+    .admission-hero h1 {
+        font-size: 32px;
+    }
+
+    .admission-card {
+        padding: 22px;
+    }
+}

@@ -1,0 +1,173 @@
+
+/* HIRING HERO */
+
+.hiring-hero {
+    min-height: 550px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 70px 20px;
+    background: #4b1022;
+    color: white;
+}
+
+.hiring-hero-content {
+    position: relative;
+    z-index: 2;
+    max-width: 750px;
+}
+
+.hiring-hero-content > p:first-child,
+.hiring-heading > p:first-child {
+    color: #dca94e;
+    letter-spacing: 3px;
+    font-weight: bold;
+}
+
+.hiring-hero h1 {
+    font-size: clamp(40px, 6vw, 65px);
+    margin: 15px 0;
+}
+
+.hiring-hero h3 {
+    color: #e6a443;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.hiring-hero-content p {
+    line-height: 1.8;
+}
+
+.hiring-btn {
+    display: inline-block;
+    background: #e6a443;
+    color: #4b1022;
+    padding: 13px 30px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+/* WHY JOIN US */
+
+.why-join,
+.application-section {
+    padding: 80px 7%;
+    background: #fffaf2;
+}
+
+.hiring-heading {
+    text-align: center;
+    margin-bottom: 45px;
+}
+
+.hiring-heading h2 {
+    color: #4b1022;
+    font-size: 35px;
+    margin: 12px 0;
+}
+
+.benefits-container {
+    max-width: 1100px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+}
+
+.benefit-card {
+    background: white;
+    padding: 35px 25px;
+    border-radius: 12px;
+    border-bottom: 4px solid #e6a443;
+    text-align: center;
+}
+
+.benefit-card h3 {
+    color: #4b1022;
+    margin-bottom: 15px;
+}
+
+.benefit-card p {
+    color: #666;
+    line-height: 1.7;
+}
+
+/* APPLICATION FORM */
+
+.application-form {
+    max-width: 850px;
+    margin: auto;
+    background: white;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 5px 25px rgba(0,0,0,0.07);
+}
+
+.form-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.form-group {
+    margin-bottom: 22px;
+}
+
+.form-group label {
+    display: block;
+    color: #4b1022;
+    font-weight: 600;
+    margin-bottom: 9px;
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+    width: 100%;
+    padding: 13px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-family: inherit;
+    font-size: 14px;
+}
+
+.form-group input:focus,
+.form-group select:focus,
+.form-group textarea:focus {
+    outline: none;
+    border-color: #e6a443;
+}
+
+.application-form button {
+    font-size: 15px;
+}
+
+@media (max-width: 768px) {
+    .benefits-container {
+        grid-template-columns: 1fr;
+    }
+
+    .form-row {
+        grid-template-columns: 1fr;
+        gap: 0;
+    }
+
+    .application-form {
+        padding: 25px 18px;
+    }
+
+    .hiring-hero {
+        min-height: 480px;
+    }
+
+    .hiring-heading h2 {
+        font-size: 28px;
+    }
+}

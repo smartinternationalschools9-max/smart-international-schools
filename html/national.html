@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+     <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/national.css">
+    
+    
+</head>
+<body>
+   
+<main class="national-page">
+
+  <section class="national-header">
+    <p class="eyebrow">NATIONAL EDUCATION</p>
+    <h1>Our <em>National Stages</em></h1>
+    <p>Discover our learning journey from early childhood to secondary education.</p>
+  </section>
+
+  <!-- KG -->
+  <section class="stage-section">
+    <div class="stage-heading">
+      <span>01</span>
+      <div>
+        <p class="card-kicker">EARLY YEARS</p>
+        <h2>Kindergarten (KG)</h2>
+      </div>
+    </div>
+    <div class="stage-gallery">
+      <img src="../images/national/kg/photo1.jpeg" alt="KG students">
+      <img src="../images/national/kg/photo2.jpeg" alt="KG activities">
+      <img src="../images/national/kg/photo3.jpeg" alt="KG classroom" >
+    </div>
+    
+        <button class="view-all-btn" onclick="toggleGallery(this)">
+         View All Photos
+      </button>
+     
+  </section>
+
+  <!-- Primary -->
+  <section class="stage-section">
+    <div class="stage-heading">
+      <span>02</span>
+      <div>
+        <p class="card-kicker">FOUNDATION</p>
+        <h2>Primary Stage</h2>
+      </div>
+    </div>
+    <div class="stage-gallery">
+      <img src="../images/national/primary/photo1.jpeg" alt="Primary students">
+      <img src="../images/national/primary/photo3.jpeg" alt="Primary activities">
+      <img src="../images/national/primary/photo2.jpeg" alt="Primary classroom">
+      <img src="../images/national/primary/photo4.jpeg" alt="Primary classroom">
+    </div>
+    
+        <button class="view-all-btn" onclick="toggleGallery(this)">
+         View All Photos
+      </button>
+     
+  </section>
+
+  <!-- Preparatory -->
+  <section class="stage-section">
+    <div class="stage-heading">
+      <span>03</span>
+      <div>
+        <p class="card-kicker">DEVELOPMENT</p>
+        <h2>Preparatory Stage</h2>
+      </div>
+    </div>
+    <div class="stage-gallery">
+      <img src="../images/national/preparatory/photo1.jpeg" alt="Preparatory students">
+      <img src="../images/national/preparatory/photo2.jpeg" alt="Preparatory activities">
+      <img src="../images/national/preparatory/photo3.jpeg" alt="Preparatory classroom">
+      <img src="../images/national/preparatory/photo4.jpeg" alt="Preparatory classroom">
+      <img src="../images/national/preparatory/photo5.jpeg" alt="Preparatory classroom">
+
+      
+    </div>
+   
+        <button class="view-all-btn" onclick="toggleGallery(this)">
+         View All Photos
+      </button>
+   
+  </section>
+
+  <!-- Secondary -->
+  <section class="stage-section">
+    <div class="stage-heading">
+      <span>04</span>
+      <div>
+        <p class="card-kicker">ACHIEVEMENT</p>
+        <h2>Secondary Stage</h2>
+      </div>
+    </div>
+    <div class="stage-gallery">
+      
+    </div>
+  </section>
+
+  <!-- IMAGE GALLERY MODAL -->
+<div class="modal fade" id="galleryModal" tabindex="-1" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-lg">
+    <div class="modal-content">
+
+      <div class="modal-header border-0">
+        <button type="button"
+                class="btn-close btn-close-white"
+                data-bs-dismiss="modal"
+                aria-label="Close"></button>
+      </div>
+
+      <div class="modal-body position-relative">
+
+        <button class="gallery-arrow prev-btn" id="prevImage">
+          &#10094;
+        </button>
+
+        <img src="" id="modalImage" alt="Gallery image">
+
+        <button class="gallery-arrow next-btn" id="nextImage">
+          &#10095;
+        </button>
+
+        <p id="imageCounter" class="text-white text-center mt-3"></p>
+
+      </div>
+    </div>
+  </div>
+</div>
+</main>
+<script src="../js/bootstrap.bundle.min.js"></script>
+ <script src="../js/script.js"></script>
+</body>
+</html>
